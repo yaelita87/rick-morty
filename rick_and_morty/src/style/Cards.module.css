@@ -1,0 +1,10 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background-color: transparent;
+    margin-top: 250px;
+    padding: 0;
+}

@@ -1,0 +1,45 @@
+.cbusca {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+}
+
+.busca {
+    display: inline;
+    width: 200px;
+    height: 40px;
+    background: #dcdcdc;
+    border: none;
+    font-size: 1rem;
+    float: left;
+    color: #000000;
+    padding-left: 45px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transition: background .5s ease;
+}
+.busca:hover {
+    background: #ffffff;
+}
+
+
+.boton {
+    display: inline;
+    position: relative;
+    height: 42px;
+    width: 70px;
+    border: 1px solid #cc66ff;
+    background-color: black;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fb4ddec5;
+    transition: background .1s ease;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.boton:hover {
+    outline: none;
+    background-color: #343333;
+    color: #ffffff;
+}

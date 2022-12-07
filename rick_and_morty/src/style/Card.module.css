@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.todoCard {
+    position: relative;
+    width: 250px;
+    align-items: left;
+    border-radius: 25px;
+    background-color: black;
+    box-shadow: 4px 4px 5px 1px #89dc7b, 2px 2px 5px 3px #4247cb;
+    transition: all .3s ease;
+}
+
+.todoCard:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 4px 20px 10px #89dc7b, 2px 2px 20px 15px #4247cb;
+}
+
+div .imgCard {
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    width: 250px;
+}
+
+div.titulos {
+    align-self: flex-start;
+    margin: -40px 10px 0 10px;
+    width: 70%;
+}
+.h2, .name, .link {
+    text-align: left;
+    color: #42B5CB;
+    -webkit-text-stroke: 0.5px #C1E149;
+    padding: 0px 0;
+    margin: 0;
+    width: 100%;
+    font-size: 1.5rem;
+   text-decoration: none;
+    font-family: 'Permanent Marker', cursive;
+    transition: all .2s ease;
+}
+
+
+.nombre:hover {
+    transform: scale(1.3);
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.boton {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 100%;
+    padding: 3px 7px;
+    color: black;
+    background-color: #61d04ddd;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all .2s ease;
+    margin-top: 5px;
+}
+
+.boton:hover {
+    align-items: center;
+    background-color: red;
+    cursor: pointer;
+    color: white;
+}
